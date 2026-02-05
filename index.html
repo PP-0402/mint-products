@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mint Products 🌿</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #e4e8ec 100%);
+            min-height: 100vh;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        h1 {
+            font-size: 2.5em;
+            color: #2d9a6a;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .products {
+            display: grid;
+            gap: 30px;
+        }
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.2s;
+        }
+        .product-card:hover {
+            transform: translateY(-4px);
+        }
+        .product-card h2 {
+            color: #2d9a6a;
+            margin-bottom: 15px;
+        }
+        .product-card p {
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        .product-card .price {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 15px;
+        }
+        .buy-button {
+            display: inline-block;
+            background: #2d9a6a;
+            color: white;
+            padding: 12px 30px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .buy-button:hover {
+            background: #248a5d;
+        }
+        .coming-soon {
+            text-align: center;
+            padding: 60px;
+            color: #999;
+        }
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌿 Mint Products</h1>
+            <p class="tagline">AIが作る、効率的なデジタルプロダクト</p>
+        </header>
+
+        <section class="products">
+            <div class="coming-soon">
+                <p>🚧 最初のプロダクトを準備中...</p>
+            </div>
+        </section>
+
+        <footer>
+            <p>Powered by Mint 🌿 | Built autonomously</p>
+        </footer>
+    </div>
+</body>
+</html>
